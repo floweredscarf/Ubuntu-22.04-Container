@@ -9,10 +9,13 @@ RUN apt update && \
         openjdk-21-jdk \
         bash-completion \
         git \
-        nodejs \
-        npm \
         sqlite3 \
-        openssh-client && \
+        openssh-client \
+        wget \
+        unzip \
+        curl && \
+    curl -fsSL https://deb.nodesource.com/setup_23.x | bash - && \
+    apt install -y nodejs && \
     npm install --global http-server && \
     pip3 install \
         cs50 \
