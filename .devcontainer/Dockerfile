@@ -21,6 +21,8 @@ RUN apt update && \
         cs50 \
         flask \
         flask-session \
+        matplotlib \
+        numpy \
         jupyter \
         pillow \
         pytz \
