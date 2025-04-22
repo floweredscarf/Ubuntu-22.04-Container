@@ -21,6 +21,8 @@ RUN apt update && \
         cs50 \
         flask \
         flask-session \
+        fpdf \
+        inflect \
         matplotlib \
         numpy \
         jupyter \
