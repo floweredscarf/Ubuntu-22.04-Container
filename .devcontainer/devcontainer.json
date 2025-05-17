@@ -1,0 +1,25 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-python.python",
+                "redhat.java",
+                "vscjava.vscode-java-debug",
+                "ms-toolsai.jupyter",
+                "ms-azuretools.vscode-docker",
+                "mathematic.vscode-pdf",
+                "vivaxy.vscode-conventional-commits"
+            ],
+            "settings": {
+                "files.autoSave": "afterDelay",
+                "files.exclude": {
+                    "**/.*": true
+                }
+            }
+        }
+    }
+}
